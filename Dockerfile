@@ -27,7 +27,7 @@ RUN git clone https://github.com/Linuxbrew/brew.git /home/linuxbrew/.linuxbrew/H
         && brew config
 
 
-RUN brew install imagemagick poppler ffmpeg
+RUN brew install imagemagick poppler ffmpeg node@10
 
 RUN brew cleanup -s
 
@@ -38,3 +38,4 @@ RUN ffmpeg -version
 RUN pdfinfo -v
 
 RUN gs -v
+
