@@ -45,4 +45,5 @@ RUN pdfinfo -v
 
 RUN gs -v
 
+USER root
 RUN node -v
