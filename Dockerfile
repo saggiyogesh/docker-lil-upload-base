@@ -33,7 +33,7 @@ RUN git clone https://github.com/Linuxbrew/brew.git /home/linuxbrew/.linuxbrew/H
 
 RUN brew install imagemagick poppler ffmpeg 
 
-RUN brew install node@10
+RUN brew install node@12
 
 RUN brew cleanup -s
 
